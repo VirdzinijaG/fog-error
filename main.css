@@ -15,6 +15,7 @@ body {
     background: linear-gradient(250deg, #414340 30%, #2D2F2C 57%, #2D2F2C 70%);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 80%;
     
 }
 .right{
@@ -41,22 +42,60 @@ main {
     
 }
 .first {
-
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 45%;
 }
 .second {
-
+    color: #7A7B80;
+    font-size: 200px;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    opacity: 40%;
 }
 .third {
-
+    color: #7A7B80;
+    font-size: 25px;
+    position: absolute;
+    bottom: 45%;
+    left: 45%;
 }
 .fourth {
-
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
 }
-button {
-
+buton {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 25%;
+    left: 44%;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+    width: 15%;
+}
+buton > a  {
+    text-decoration: none;
+    color: white;
 }
 .last {
-
+    color: #7A7B80;
+    font-size: 15px;
+    position: absolute;
+    bottom: 1%;
+    left: 35%;
+}
+p > a {
+    color: white;
+    text-decoration: none;
 }
 .left {
     display: inline-block;
